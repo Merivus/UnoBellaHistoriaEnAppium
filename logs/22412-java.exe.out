@@ -1,0 +1,27 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 8107milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 8107"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50186"}
+{"logLevel":"info","message":"Listening on port:50186"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickSubmit' and 'org.example.StepImplementation.clickSubmit'"}
+{"logLevel":"debug","message":"Found Giriş butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.setUserName' and 'org.example.StepImplementation.setUserName'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı alanına {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.setPassword' and 'org.example.StepImplementation.setPassword'"}
+{"logLevel":"debug","message":"Found Şifre alanına {} girilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tGiriş butonuna tıklanır : public void clickSubmit()"}
+{"logLevel":"debug","message":"\tKullanıcı adı alanına {} girilir : public void setUserName(String userName)"}
+{"logLevel":"debug","message":"\tŞifre alanına {} girilir : public void setPassword(String password)"}
+Oca 23, 2021 9:21:32 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Kullanıcı adı alanına {} girilir' using 'class org.example.StepImplementation.setUserName"}
+{"logLevel":"debug","message":"Executing 'Şifre alanına {} girilir' using 'class org.example.StepImplementation.setPassword"}
+{"logLevel":"debug","message":"Executing 'Giriş butonuna tıklanır' using 'class org.example.StepImplementation.clickSubmit"}

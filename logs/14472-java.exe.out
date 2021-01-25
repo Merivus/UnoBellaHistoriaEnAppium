@@ -1,0 +1,35 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 5949milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5949"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51607"}
+{"logLevel":"info","message":"Listening on port:51607"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.setUser' and 'Tests.LoginTest.setUser'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı alanına {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.BasketTest.checkBasketProduct' and 'Tests.BasketTest.checkBasketProduct'"}
+{"logLevel":"debug","message":"Found Sepete tıklanır ve sepetin boş olduğu görülür in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.MainPageTest.checkBasketProduct' and 'Tests.MainPageTest.checkBasketProduct'"}
+{"logLevel":"debug","message":"Found Ana sayfaya geri dönüş yapılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.clickLogin' and 'Tests.LoginTest.clickLogin'"}
+{"logLevel":"debug","message":"Found Giriş butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.setPassword' and 'Tests.LoginTest.setPassword'"}
+{"logLevel":"debug","message":"Found Kullanıcı şifre alanına {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKullanıcı adı alanına {} yazılır : public void setUser(String userName)"}
+{"logLevel":"debug","message":"\tGiriş butonuna tıklanır : public void clickLogin()"}
+{"logLevel":"debug","message":"\tAna sayfaya geri dönüş yapılır : public void checkBasketProduct()"}
+{"logLevel":"debug","message":"\tKullanıcı şifre alanına {} yazılır : public void setPassword(String password)"}
+{"logLevel":"debug","message":"\tSepete tıklanır ve sepetin boş olduğu görülür : public void checkBasketProduct()"}
+Oca 24, 2021 3:01:36 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Kullanıcı adı alanına {} yazılır' using 'class Tests.LoginTest.setUser"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı şifre alanına {} yazılır' using 'class Tests.LoginTest.setPassword"}
+{"logLevel":"debug","message":"Executing 'Giriş butonuna tıklanır' using 'class Tests.LoginTest.clickLogin"}
+{"logLevel":"debug","message":"Executing 'Sepete tıklanır ve sepetin boş olduğu görülür' using 'class Tests.BasketTest.checkBasketProduct"}
+{"logLevel":"debug","message":"Executing 'Ana sayfaya geri dönüş yapılır' using 'class Tests.MainPageTest.checkBasketProduct"}

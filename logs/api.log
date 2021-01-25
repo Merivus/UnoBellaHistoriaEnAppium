@@ -2764,3 +2764,5 @@
 25-01-2021 09:26:20.012 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} kategorisine tıklanır"  parameterizedStepValue:"<Yiyecek> kategorisine tıklanır"  parameters:"Yiyecek"}}
 25-01-2021 09:26:20.030 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"1\" farklı üründen \"3\" tane ürün eklenir"}
 25-01-2021 09:26:20.165 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} farklı üründen {} tane ürün eklenir"  parameterizedStepValue:"<1> farklı üründen <3> tane ürün eklenir"  parameters:"1"  parameters:"3"}}
+25-01-2021 11:08:27.381 [Gauge] [INFO] Spec file added / modified: C:\Users\ASUS\IdeaProjects\UnoBellaHistoriaEnAppium\specs\example.spec
+25-01-2021 11:55:51.538 [Gauge] [INFO] Spec file added / modified: C:\Users\ASUS\IdeaProjects\UnoBellaHistoriaEnAppium\specs\example.spec

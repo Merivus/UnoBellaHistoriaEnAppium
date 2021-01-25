@@ -14,6 +14,7 @@ public class CategoryDetailTest {
 
     @Step("<key> kategorisine tıklanır")
     public void clickCategoryByName(String categoryName){
+
         categoryDetailModel.clickCategoryByName(categoryName);
     }
 }

@@ -15,25 +15,21 @@ public class BasketTest extends BasketModel {
 
     @Step("Sepet butonuna basılır.")
     public void clickBasket(){
-
         basketModel.clickBasket();
     }
 
     @Step("Sepetin boş olup olmadığının kontrolünü yapar")
     public void checkBasketProduct(){
-
         basketModel.checkBasketProduct();
     }
 
     @Step("Sepetteki tüm ürünler silinir.")
     public void clickRemoveButton(){
-
         basketModel.clickRemoveButton();
     }
 
     @Step("Kategoriden rastgele <key> ürün seçilir")
     public void addRandomProductToBasket(int randomPruduct){
-
         for (int i=0;i<randomPruduct;i++){
             basketModel.clickAddToRandomProduct();
         }
@@ -41,7 +37,6 @@ public class BasketTest extends BasketModel {
 
     @Step("<key> farklı üründen <key> tane ürün eklenir")
     public void addProductToBasket(int product, int item){
-
         for (int i=0;i<product;i++){
             basketModel.addProductToBasket(product);
         }
@@ -49,7 +44,6 @@ public class BasketTest extends BasketModel {
 
     @Step("Sepete eklenen ürünler birer tane arttırılır")
     public void addProductItems() {
-
         basketModel.productIncreased();
     }
 }

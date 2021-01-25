@@ -14,17 +14,14 @@ public class LoginModel extends Util {
     }
 
     public void setUser(String userName){
-
         sendKeys(edtUsername,userName);
     }
 
     public void setPassword(String password){
-
         sendKeys(edtPassword,password);
     }
 
     public void clickLogin(){
-
         clickElement(btnSubmit);
     }
 }

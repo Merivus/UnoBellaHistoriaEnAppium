@@ -18,7 +18,7 @@ import java.util.List;
 
 public class Util extends Driver {
 
-    public WebElement findElement(By by){
+    public WebElement findElement(By by) {
         return appiumDriver.findElement(by);
     }
 
@@ -46,10 +46,9 @@ public class Util extends Driver {
     }
 
     public boolean isElementDisplayed(By selector) {
-        try{
+        try {
             return findElement(selector).isDisplayed();
-        }
-        catch (WebDriverException e){
+        } catch (WebDriverException e) {
             return false;
         }
     }
@@ -74,23 +73,5 @@ public class Util extends Driver {
         WebDriverWait wait = new WebDriverWait(appiumDriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
     }
-
-    public void swipeDown(AppiumDriver driver, Duration duration) {
-        Dimension size = driver.manage().window().getSize();
-        int startX = 0;
-        int endX = 0;
-        int startY = 0;
-        int endY = 0;
-
-        startY = (int) (size.height * 0.70);
-        endY = (int) (size.height * 0.30);
-        startX = (size.width / 2);
-        new TouchAction(driver)
-                .press(PointOption.point(startX, startY))
-                .waitAction(WaitOptions.waitOptions(duration))
-                .moveTo(PointOption.point(startX, endY))
-                .release()
-                .perform();
-        }
-    }
+}
 

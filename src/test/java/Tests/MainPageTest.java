@@ -8,6 +8,7 @@ public class MainPageTest {
     MainPageModel mainPageModel;
 
     public MainPageTest() {
+
         this.mainPageModel=new MainPageModel();
     }
 

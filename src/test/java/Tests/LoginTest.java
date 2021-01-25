@@ -15,18 +15,16 @@ public class LoginTest {
 
     @Step("Kullanıcı adı alanına <key> yazılır")
     public void setUser(String userName){
-
         loginModel.setUser(userName);
     }
+
     @Step("Kullanıcı şifre alanına <key> yazılır")
     public void setPassword(String password){
-
         loginModel.setPassword(password);
     }
 
     @Step("Giriş butonuna tıklanır")
     public void clickLogin(){
-
         loginModel.clickLogin();
     }
 }

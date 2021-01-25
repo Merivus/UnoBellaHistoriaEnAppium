@@ -38,7 +38,6 @@ public class CategoryDetailModel extends Util {
                 System.out.println(i);
                 System.out.println("categoryItem" + categoryItem.get(i));
                 System.out.println("tıklanan" + findElements(tvTitle).get(i).getText());
-
                 findElements(tvTitle).get(i).click();
             }
         }

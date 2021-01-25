@@ -23,10 +23,12 @@ public class BasketModel extends Util {
     }
 
     public void clickBasket(){
+
         clickElement(btnBasket);
     }
 
     public void checkBasketProduct() {
+
         Assert.assertFalse(isElementDisplayed(totalCountParent));
     }
 
